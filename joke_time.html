@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joke Time | Tindahan ng mga Alaala</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lilita+One&family=Nunito:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>try{if(sessionStorage.getItem('mm'))document.documentElement.classList.add('arriving')}catch(e){}</script>
+</head>
+<body class="memory" style="--c:#0a7d70;--cd:#054b43;--t:#ffffff">
+
+<header class="pg-head">
+  <div class="wrap">
+    <a class="back" href="index.html" data-back="jokes">&larr; Back to the store</a>
+    <div class="pg-titlerow">
+      <span class="pg-icon" data-icon="laugh"></span>
+      <div>
+        <p class="flavor">Lasang Tawa</p>
+        <h1>Joke Time</h1>
+      </div>
+    </div>
+    <p class="intro"><!-- EDIT: your own introduction --> Five jokes for when the store is quiet. Tap a receipt to see the punchline.</p>
+  </div>
+</header>
+
+<main class="pg-body">
+  <div class="wrap">
+    <!-- EDIT: replace these with the jokes from your joke.md.txt -->
+    <div class="jokes">
+      <div class="receipt-wrap"><article class="joke receipt">
+        <div class="rc-head"><span>Resibo</span><span>No. 1</span></div>
+        <p class="q">Why did the sari-sari store owner bring a ladder to work?</p>
+        <button type="button" class="reveal" data-reveal>Show the answer</button>
+        <p class="ans">Because the prices were too high!</p>
+      </article></div>
+      <div class="receipt-wrap"><article class="joke receipt">
+        <div class="rc-head"><span>Resibo</span><span>No. 2</span></div>
+        <p class="q">Bakit laging masaya ang tindahan? (Why is the store always so happy?)</p>
+        <button type="button" class="reveal" data-reveal>Show the answer</button>
+        <p class="ans">Kasi lahat ng problema, tingi-tingi lang! (Every problem comes in small sachets.)</p>
+      </article></div>
+      <div class="receipt-wrap"><article class="joke receipt">
+        <div class="rc-head"><span>Resibo</span><span>No. 3</span></div>
+        <p class="q">What do you call a sleeping bull at the store?</p>
+        <button type="button" class="reveal" data-reveal>Show the answer</button>
+        <p class="ans">A bulldozer!</p>
+      </article></div>
+      <div class="receipt-wrap"><article class="joke receipt">
+        <div class="rc-head"><span>Resibo</span><span>No. 4</span></div>
+        <p class="q">Why did the cookie go to the doctor?</p>
+        <button type="button" class="reveal" data-reveal>Show the answer</button>
+        <p class="ans">It was feeling crumby.</p>
+      </article></div>
+      <div class="receipt-wrap"><article class="joke receipt">
+        <div class="rc-head"><span>Resibo</span><span>No. 5</span></div>
+        <p class="q">Why was the math book sad?</p>
+        <button type="button" class="reveal" data-reveal>Show the answer</button>
+        <p class="ans">It had too many problems.</p>
+      </article></div>
+    </div>
+  </div>
+</main>
+
+<nav class="pg-nav wrap" aria-label="More memories">
+  <a class="nx" href="my_song.html" data-go="song" style="--c:#f08300;--t:#2a1500"><small>Previous</small><span>My Song</span></a>
+  <a class="nx" href="childhood_memories.html" data-go="childhood" style="--c:#d4381f;--t:#ffffff"><small>Next</small><span>Childhood Memories</span></a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
